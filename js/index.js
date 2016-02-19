@@ -9,7 +9,7 @@ var S = {
 		if (i !== -1) {
 			S.UI.simulate(decodeURI(action).substring(i + 3));
 		} else {
-			S.UI.simulate('Shape|Shifter|by 符海飞|to start|#rectangle|#countdown 3||');
+			S.UI.simulate('let start|#countdown 3|宝 贝|我爱你||');
 		}
 
 		S.Drawing.loop(function() {
