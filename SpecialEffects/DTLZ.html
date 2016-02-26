@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>动态粒子特效</title>
+		<link rel="stylesheet" href="DTLZ_css/normalize.css">
+		<link rel="stylesheet" href="DTLZ_css/style.css">
+	</head>
+
+	<body>
+		<!--画布-->
+		<canvas class="canvas"></canvas>
+		<!--帮助按钮-->
+		<div class="help">?</div>
+		<!--输入框-->
+		<div class="ui">
+			<input class="ui-input" type="text">
+		</div>
+		<!--帮助菜单-->
+		<div class="overlay">
+			<!--帮助整体表格-->
+			<div class="tabs">
+				<!--帮助选项卡-->
+				<div class="tabs-labels">
+					<span class="tabs-label">Commands</span>
+					<span class="tabs-label">Info</span>
+				</div>
+				<!--快捷命令框-->
+				<div class="tabs-panels">
+					<ul class="tabs-panel commands">
+						<li class="commands-item"><span class="commands-item-title">文本输入</span><span class="commands-item-info" data-demo="Hello :)">Type anything</span><span class="commands-item-action">Demo</span></li>
+						<li class="commands-item"><span class="commands-item-title">倒 计 时</span><span class="commands-item-info" data-demo="#countdown 10">#countdown<span class="commands-item-mode">number</span></span><span class="commands-item-action">Demo</span></li>
+						<li class="commands-item"><span class="commands-item-title">当前时间</span><span class="commands-item-info" data-demo="#time">#time</span><span class="commands-item-action">Demo</span></li>
+						<li class="commands-item"><span class="commands-item-title">绘制矩形</span><span class="commands-item-info" data-demo="#rectangle 30x15">#rectangle<span class="commands-item-mode">width x height</span></span><span class="commands-item-action">Demo</span></li>
+						<li class="commands-item"><span class="commands-item-title">绘制圆形</span><span class="commands-item-info" data-demo="#circle 25">#circle<span class="commands-item-mode">diameter</span></span><span class="commands-item-action">Demo</span></li>
+						<li class="commands-item commands-item--gap"><span class="commands-item-title">Animate</span><span class="commands-item-info" data-demo="The time is|#time|#countdown 3|#icon thumbs-up"><span class="commands-item-mode">command1</span>&nbsp;|<span class="commands-item-mode">command2</span></span>
+							<span class="commands-item-action">Demo</span>
+						</li>
+					</ul>
+					<!--信息-->
+					<div class="tabs-panel ui-details">
+						<div class="ui-details-content">
+							<h1>Canvas粒子文字动画</h1>
+							<h1>Shape Shifter</h1>
+							<p>
+								<br> 作 者 : <a href="javascript:void(0);" target="_blank"> 符 海 飞 <a/><br><br>
+									邮 箱 : <a href="mailto:my@fuhaifei.xyz"> my@fuhaifei.xyz </a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="DTLZ_js/index.js"></script>
+	</body>
+
+</html>

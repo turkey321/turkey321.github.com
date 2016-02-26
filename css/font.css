@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Lato Light'), local('Lato-Light'), url(../fonts/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Lato Regular'), local('Lato-Regular'), url(http://fontstatic.useso.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+}
+
+.xxxxx1 {
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+
+.xxxxx2 {
+	font-size: 14px;
+	font-family: "楷体";
+	color: black;
+}
+
+.xxxxx2:hover {
+	font-size: 14px;
+	font-family: "楷体";
+	color: white;
+}
+
+.iw_poi_title {
+	color: #CC5522;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word
+}
+
+.xxxxx3 {
+margin-right: 20px;
+}
