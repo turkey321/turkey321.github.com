@@ -114,7 +114,7 @@ jQuery(document).ready(function($) {
 	});
 
 	$("#verticalTab h2.resp-accordion").click(function() {
-		initialize();
+
 	});
 
 	/* ---------------------------------------------------------------------- */
@@ -151,7 +151,7 @@ jQuery(document).ready(function($) {
 	window.addEventListener('resize', redimensionnement, false);
 
 	$("#verticalTab h2.resp-accordion").click(function() {
-		initialize();
+
 	});
 
 	/* ---------------------------------------------------------------------- */

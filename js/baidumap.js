@@ -1,7 +1,7 @@
 //创建和初始化地图函数：
 function initMap() {
 	createMap(); //创建地图
-	setMapEvent(); //设置地图事件
+	//	setMapEvent(); //设置地图事件
 	addMapControl(); //向地图添加控件
 	addMarker(); //向地图中添加marker
 }
@@ -45,8 +45,8 @@ function addMapControl() {
 
 //标注点数组
 var markerArr = [{
-	title: "我的位置",
-	content: "turkey",
+	title: "",
+	content: "I am turkey,这个是我的位置  121.194623|32.318734  哈哈~~",
 	point: "121.194623|32.318734",
 	isOpen: 0,
 	icon: {

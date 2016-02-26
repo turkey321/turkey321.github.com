@@ -467,7 +467,7 @@ h2.resp-accordion:hover {
 ------------------- Google Maps --------------------
 ---------------------------------------------------*/
 
-#map {
+#dituContent {
 	display: block;
 	width: 100% !important;
 	height: 300px !important;
@@ -479,7 +479,7 @@ h2.resp-accordion:hover {
 	border-top: 1px solid #CCC;
 }
 
-#map.large {
+#dituContent.large {
 	height: 500px;
 }
 
