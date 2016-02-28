@@ -1,0 +1,21 @@
+@charset "utf-8";
+canvas {
+	position: absolute;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+}
+
+img {
+	position: absolute;
+	-webkit-transition: opacity .3s;
+	transition: opacity .3s;
+}
+
+#container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -250px 0 0 -400px;
+}

@@ -47,5 +47,20 @@
 }
 
 .xxxxx3 {
-margin-right: 20px;
+	margin-right: 20px;
+}
+
+.xxxxx4 {
+	font-family: "微软雅黑";
+	font-size: 20px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	text-align: center;
+	margin: 70px 0 0 -380px;
+}
+
+.xxxxx5 {
+	font-size: 30px;
+	color: chartreuse;
 }

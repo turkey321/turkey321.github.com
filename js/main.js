@@ -442,6 +442,26 @@ jQuery(document).ready(function($) {
 	});
 });
 
+var mouseX;
+var mouseY;
+var imageOne;
+$(init);
+$(window).load(init);
+$(window).resize(init);
+$(window).mousemove(getMousePosition);
+
+function init() {
+	mouseX = 0;
+	mouseY = 0;
+	imageOne = new HeadImage("one");
+}
+
+function getMousePosition(event) {
+	mouseX = event.pageX;
+	mouseY = event.pageY;
+	imageOne.setImageDirection();
+}
+
 //离开页面改变titile的方法
 window.onblur = function() {
 	document.title = '你出现了一个BUG！';

@@ -19,14 +19,14 @@
 	z-index: 9999;
 }
 
-#spinner {
+.spinner {
 	position: absolute;
 	width: 80px;
 	height: 80px;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	margin: -40px 0 0 -40px;
-	background: url(../images/spinner.gif) no-repeat;
+	background: url(../images/arrows-h3/spinner.gif) no-repeat;
 }
 
 #portfolio .mCSB_container {
@@ -3098,4 +3098,17 @@ li h6 {
 
 div.ppt {
 	display: none !important;
+}
+
+@media only screen and (max-width : 991px) {
+	.resp-vtabs .resp-tabs-container {
+		margin-left: 13px;
+	}
+}
+
+@media only screen and (min-width : 800px) and (max-width : 991px) {
+	.resp-vtabs .resp-tabs-container {
+		margin-left: 13px;
+		width: 89%;
+	}
 }
