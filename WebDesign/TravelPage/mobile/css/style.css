@@ -1,0 +1,423 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+
+body{
+	 font-family: Arial, Helvetica, sans-serif;
+}
+/*---- Header part Starts Here -----*/
+.header{
+	background:url(../images/bg.jpg)no-repeat 100%;
+	background-size:cover;
+	text-align: center;
+	padding:10px 0px 10px 0px;
+}
+.logo p{
+	font-weight:600;
+	font-size:12px;
+	color:#FFF;
+}
+.clearfix{
+	clear:both;
+}
+.social-icons{
+	
+}
+ul.social li{
+	display: inline-block;
+}
+ul.social li i{
+	width:16px;
+	height:16px;
+	display: inline-block;
+	cursor:pointer;
+	margin: 0px 2px;
+	padding: 0px;
+}
+.header-bottom a img {
+	margin-top: 10px;
+}
+.header-bottom p{
+	font-weight:400;
+	color:#FFF;
+	font-size: 12px;
+}
+ul.social li i.sc1{
+	background:url(../images/1.png) no-repeat;
+}
+ul.social li i.sc2{
+	background:url(../images/2.png) no-repeat;
+}
+ul.social li i.sc3{
+	background:url(../images/3.png) no-repeat;
+}
+ul.social li i.sc4{
+	background:url(../images/4.png) no-repeat;
+}
+ul.social li i.sc5{
+	background:url(../images/5.png) no-repeat;
+}
+.header-bottom{
+	padding:5px 0px 0px 0px;
+}
+.header-bottom h1,.header-bottom h2{
+	font-weight: 800;
+	font-size:12px;
+	color:#99dd9a;
+}
+.header-bottom h2 span{
+	color:#fff;
+}
+/*---- Header part Starts Here -----*/
+/*----- Navigation part starts Here ---*/
+.navigation{
+	background:#202428;
+	padding: 2px 0px;
+	position:relative;
+}
+#w3-masthead {
+	padding: 0 10px;
+}
+#header-top img{
+	display:block;
+}
+ul#w3-unav-links li {
+	background: none;
+	padding: 0px;
+	list-style-type:none;
+	border:1px solid #f0f0f0;
+}
+#w3-mobile-options {
+	position: absolute;
+	right: 10px;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+	top: 6px;
+}
+#w3-mobile-options li {
+	float: left;
+	list-style-type: none;
+}
+#w3-mobile-options a {
+	background: url(../images/nav_icon.png);
+}
+#w3-mobile-options li a {
+	display: block;
+	color: transparent;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+#w3-menu-links {
+	background:#fff;
+	border-top: 1px solid #eee;
+	border-bottom: 2px solid #eee;
+	padding: 0px 10px;
+	display: none;
+}
+ul.footer-nav {
+	background: antiquewhite;
+	text-align:center;
+}
+ul.footer-nav li a{
+	color: #999;
+	font-size:15px;
+	text-decoration:none;
+}
+ /*------navigation part Ends Here--*/
+/*------ Services Part Starts Here ----*/
+.services{
+	background:url(../images/ser-bg.jpg)no-repeat;
+	background-size:cover;
+	text-align: center;
+	padding:20px 10px;
+}
+.services-row{
+	padding:0px 0px;
+}	
+.services-row h3{
+	font-weight: 800;
+	font-size:16px;
+	color: #709a80;
+	padding:0px 0px 10px 0px;
+}
+.services-row-column{
+	margin: 10px 0px;
+}
+.services-row-column i{
+}
+
+.services-row-column i.icon1 {
+	display: inline-block;
+	cursor: pointer
+}
+.services-row-column h4 a{
+	font-weight:700;
+	font-size: 15px;
+	text-decoration:none;
+	cursor: pointer;
+}
+	
+.services-row-column small{
+	font-weight:600;
+	font-size:12px;
+	color:#8e948b;
+	text-transform: uppercase;
+}
+.services-row-column p{
+	font-weight:600;
+	font-size:13px;
+	color:#8e948b;
+}
+/*------ Services Part Ends Here ----*/
+/*----- Work Starts Here ----------*/
+.work{
+	padding:10px 10px;
+}
+.work-top{
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+.work-top h3{
+	font-weight: 800;
+	font-size:16px;
+	color: #709a80;
+}
+.work-top small{
+	font-weight:400;
+	font-size:15px;
+	color: #b7e5c8;
+}
+.work-top small span{
+	font-weight:800;
+	color:#a5deba;
+}
+	
+/*--- Gallery -----*/
+.ca-item-main {
+	float: left;
+	width: 50%;
+}
+div#ca-container {
+	text-align: center;
+}
+/*----- Work Ends Here ----------*/
+/*----- Careers part Starts Here ----------*/
+.career{
+	background:url(../images/ser-bg.jpg)no-repeat;
+	background-size:cover;
+	text-align: center;
+	padding:20px 10px;
+}
+.career-top{
+	padding:0px 0px;
+}
+h3.m_2{
+	font-weight: 800;
+	font-size:16px;
+	color: #709a80;
+}
+small.m-2-s{
+	font-weight:400;
+	font-size:14px;
+	color: #b7e5c8;
+}	
+small.m-2-s span{
+	font-weight:800;
+	font-size:14px;
+	color: #b7e5c8;
+}
+ul.icon1 li{
+	display:inline-block;
+	padding:0px;
+	margin:0 5px 0 0;
+	text-align: left;
+}
+ul.icon1 li h4{
+	font-weight:800;
+	font-size:12px;
+	margin:0px 0px -5px 0px;
+	padding:0px;
+}
+h4.boxy2{
+	color:red;
+}
+ul.icon1 li small{
+	font-weight:300;
+	font-size:10px;
+	text-transform:uppercase;
+	margin-top:0px;
+}
+.desc h4{
+	font-weight:800;
+	font-size:16px;
+	color:#91c4a0;
+}
+.desc p{
+	font-weight:400;
+	font-size:14px;
+	color:#a5deba;
+}
+.desc p span{
+	font-weight:800;
+	color:#a5deba;
+}
+.desc h5{
+	font-weight:700;
+	font-size:14px;
+	text-transform: uppercase;
+}
+.desc small{
+	font-weight:400;
+	font-size:14px;
+}
+.desc p.cursive{
+	font-weight:400;
+	font-style:italic;
+	font-size:12px;
+	color:rgba(0, 0, 0, 0.75);
+	padding:0px 0px 0px 0px;
+}			
+.col_1_of_3.span_1_of_3 {
+	margin:10px 0px;
+}
+/*----- Careers part Ends Here ----------*/
+/*------ Twitter part Starts Here ------*/
+.twitter{
+	background:#202428;
+	padding:10px 10px;
+}
+.twitter-top{
+	text-align: center;
+}
+.twitter-top h4{
+	color:#fff;
+	font-weight:700;
+	font-size:13px;
+	margin:0px
+}
+.twitter-top h4 span{
+	color:rgba(255, 255, 255, 0.49);
+	font-weight:300;
+}
+.twitter-top p{
+	color:#fff;
+	font-weight:300;
+	font-size:12px;
+	padding:10px 0px 0px 0px;
+}
+.twitter-top small{
+	font-weight:300;
+	color: #2cc3dc;
+	font-size:12px;
+}
+			
+
+/*------ Twitter part Ends Here ------*/
+/*----- Contact part Starts Here -------*/
+.contact{
+	background:url(../images/cont-bg.jpg)no-repeat;
+	background-size:cover;
+	text-align: center;
+	padding:10px 10px;
+}
+.contact-top{
+	padding: 0px 0px 10px 0px;
+}
+.contact-top h3{
+	font-weight: 800;
+	font-size:16px;
+	color: #709a80;
+}
+
+.text1 input[type="text"] {
+	width: 80%;
+	padding: 10px;
+	background: none;
+	border: 1px solid #cabdaf;
+	outline:none;
+	margin:10px 0px;
+	font-size: 12px;
+}	
+.text2 textarea {
+	width: 80%;
+	margin: 10px 0;
+	border: 1px solid #cabdaf;
+	outline: none;
+	margin-bottom: 5px;
+	height: 110px;
+	padding: 10px 10px;
+	font-size: 12px;
+	resize: none;
+	background: none;
+	padding: 10px;
+}
+.text3 input[type="submit"]{
+	color:#709a80;
+	font-weight:800;
+	font-size:12px;
+	border:none;
+	background:none;
+	cursor: pointer;
+	-webkit-appearance: none;
+	outline:none;
+}
+.text4,.text4 a{
+	text-decoration:none;
+	color:#9fc4ad;
+	font-weight:800;
+	font-size:12px;
+}
+.text4 p{
+	padding:10px 0px 0 0;
+}	
+/*----- Contact part Ends Here -------*/
+/*--- Footer part Starts Here ------*/
+.footer{
+	background:#202428;
+	padding:10px 10px;
+	text-align:center;
+}
+.footer-left{
+	float:none;
+}
+.footer-right{
+	float:none;
+}
+.footer-right p{
+	color:#fff;
+	font-size: 12px;
+}
+.footer-right p a{
+	color:#99dd9a;
+	text-decoration:none;
+}
+/*--- Footer part Starts Here ------*/

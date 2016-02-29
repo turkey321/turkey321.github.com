@@ -792,6 +792,21 @@ a.pp_close {
 	text-indent: -10000px
 }
 
+a.pp_href {
+	position: absolute;
+	left: 50%;
+	top: 3px;
+	margin: 0 0 0 -50px;
+	background: url(../images/arrows-h3/123.jpg);
+	line-height: 22px;
+	text-indent: -10000px;
+	display: block;
+	width: 100px;
+	height: 25px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+}
+
 .pp_loaderIcon {
 	display: block;
 	height: 24px;
