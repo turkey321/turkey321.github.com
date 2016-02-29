@@ -64,3 +64,19 @@
 	font-size: 30px;
 	color: chartreuse;
 }
+
+.button1 {
+	position: absolute;
+	text-align: center;
+	font-family: "微软雅黑";
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	left: 50%;
+	background-color: #0087F7;
+	color: white;
+	margin: 0 0 0 -74px;
+}
+
+.button1:hover {
+	color: cyan;
+}
