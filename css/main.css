@@ -864,6 +864,7 @@ h2.resp-accordion:hover {
 	text-transform: uppercase;
 	padding-top: 2px;
 	margin-bottom: 5px;
+	font-family: "微软雅黑";
 }
 
 
@@ -1571,6 +1572,7 @@ ul.about {
 	width: 100%;
 	margin-top: 15px;
 	list-style: none;
+	font-family: "微软雅黑";
 }
 
 .blog-article .info li {
