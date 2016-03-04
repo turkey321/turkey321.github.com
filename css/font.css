@@ -118,6 +118,6 @@
 }
 
 .xxxxx14 {
-	text-indent: 2em;
-	color: orange;
+	width: 100%;
+	min-height: 485px;
 }
