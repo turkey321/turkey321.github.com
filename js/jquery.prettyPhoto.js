@@ -720,6 +720,10 @@ $(document).ready(function() {
 	$("#catGraphic8").click(function() {
 		href_new = $("#AcatGraphic8").attr("href");
 	});
+	/////////////catSkill//////////////
+	$("#catSkill1").click(function() {
+		href_new = $("#AcatSkill1").attr("href");
+	});
 });
 
 function new_web() {
