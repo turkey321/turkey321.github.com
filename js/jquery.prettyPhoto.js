@@ -634,6 +634,53 @@
 })(jQuery);
 var pp_alreadyInitialized = false;
 
+/////////////////////////////////////////////自己写的/////////////////////////////////////////////////////
+
+/////////////加载特效界面图片//////////////
+function LoadPrettyPhoto_A() {
+	for (var i = 1; i <= 15; i++) {
+		document.getElementById('imgBanner_SE' + i).src = 'images/SE/SE' + i + '.jpg';
+	}
+	for (var i = 1; i <= 1; i++) {
+		document.getElementById('imgBanner_SW' + i).src = 'images/SW/SW' + i + '.jpg';
+	}
+	for (var i = 1; i <= 4; i++) {
+		document.getElementById('imgBanner_WD' + i).src = 'images/WD/WD' + i + '.jpg';
+	}
+	for (var i = 1; i <= 7; i++) {
+		document.getElementById('imgBanner_graphic' + i).src = 'images/graphic/' + i + '.jpg';
+	}
+}
+
+/////////////加载做的项目的图片//////////////
+function LoadPrettyPhoto_B_1() {
+	for (var i = 1; i <= 1; i++) {
+		document.getElementById('imgBanner_JXC' + i).src = 'images/arrows-h3/JXC' + i + '.jpg';
+	}
+}
+
+function LoadPrettyPhoto_B_2() {
+	for (var i = 1; i <= 3; i++) {
+		document.getElementById('imgBanner_KSXT' + i).src = 'images/arrows-h3/KSXT' + i + '.jpg';
+	}
+}
+
+function LoadPrettyPhoto_B_3() {
+	for (var i = 1; i <= 2; i++) {
+		document.getElementById('imgBanner_TKDZ' + i).src = 'images/arrows-h3/TKDZ' + i + '.jpg';
+	}
+}
+
+/////////////加载easy_blog的图片//////////////
+function LoadPrettyPhoto_C() {
+	for (var i = 1; i <= 4; i++) {
+		document.getElementById('imgBanner_blog' + i).src = 'images/blog/blog-' + i + '.jpg';
+		document.getElementById('imgBanner_blog' + i + '_2').src = 'images/blog/blog-' + i + '.jpg';
+	}
+	document.getElementById('imgBanner_blog5').src = 'images/blog/blog-4.jpg';
+	document.getElementById('imgBanner_blog5_2').src = 'images/blog/blog-4.jpg';
+}
+
 var href_new = null;
 $(document).ready(function() {
 	/////////////catWeb//////////////
