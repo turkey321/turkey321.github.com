@@ -34,6 +34,25 @@
 		<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 		<!--调用百度地图-->
 		<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+		<!--百度搜索自动推送-->
+		<script>
+			(function() {
+				var bp = document.createElement('script');
+				bp.src = '//push.zhanzhang.baidu.com/push.js';
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(bp, s);
+			})();
+		</script>
+		<!--百度统计代码-->
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?b44ca670a71e642d8bff4d114a9cbc2f";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
 	</head>
 
 	<body>
@@ -1798,15 +1817,6 @@
 		<script type="text/javascript" src="js/switcher.js"></script>
 		<!--百度地图使用js-->
 		<script type="text/javascript" src="js/baidumap.js"></script>
-		<!--百度搜索自动推送-->
-		<script>
-			(function() {
-				var bp = document.createElement('script');
-				bp.src = '//push.zhanzhang.baidu.com/push.js';
-				var s = document.getElementsByTagName("script")[0];
-				s.parentNode.insertBefore(bp, s);
-			})();
-		</script>
 	</body>
 
 </html>
