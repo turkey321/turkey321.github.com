@@ -1,4 +1,9 @@
-# 网站地址:www.fuhaifei.xyz
-资源库:turkey321.github.com 
+个人网站仓库
+====
+ 
+ ![index](http://7xrtds.com1.z0.glb.clouddn.com/img/index/index.png)
 
-注:符海飞的个人网站仓库(网站专用)
+  访问地址:[http://www.fuhaifei.xyz]
+
+
+[http://www.fuhaifei.xyz]:http://www.fuhaifei.xyz
